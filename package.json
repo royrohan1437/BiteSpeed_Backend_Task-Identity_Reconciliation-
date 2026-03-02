@@ -4,8 +4,8 @@
   "description": "\"# BiteSpeed_Backend_Task-Identity_Reconciliation-\"",
   "main": "index.js",
   "scripts": {
- "dev":"ts-node-dev src/index.ts"
-},
+    "dev": "ts-node-dev src/index.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/royrohan1437/BiteSpeed_Backend_Task-Identity_Reconciliation-.git"
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/royrohan1437/BiteSpeed_Backend_Task-Identity_Reconciliation-#readme",
   "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.4.2",
     "@prisma/client": "^7.4.2",
+    "better-sqlite3": "^12.6.2",
     "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "prisma": "^7.4.2"
   },

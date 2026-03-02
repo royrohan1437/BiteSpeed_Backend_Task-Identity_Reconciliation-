@@ -1,15 +1,15 @@
 import express from "express";
 import { identifyContact } from "../services/identifyService";
 
-const router = express.Router();
+const router=express.Router();
 
-router.post("/", async (req, res) => {
+router.post("/",async(req,res)=>{
 
- const { email, phoneNumber } = req.body;
+ const {email,phoneNumber}=req.body;
 
- const result = await identifyContact(email, phoneNumber);
+ const result=await identifyContact(email,phoneNumber);
 
- res.status(200).json(result);
+ res.json(result);
 
 });
 
