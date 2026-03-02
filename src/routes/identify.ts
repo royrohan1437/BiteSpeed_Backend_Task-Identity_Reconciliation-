@@ -1,10 +1,15 @@
 import express from "express";
+import { identifyContact } from "../services/identifyService";
 
 const router = express.Router();
 
-router.post("/", async(req,res)=>{
+router.post("/", async (req, res) => {
 
- res.send("Identify endpoint");
+ const { email, phoneNumber } = req.body;
+
+ const result = await identifyContact(email, phoneNumber);
+
+ res.status(200).json(result);
 
 });
 
