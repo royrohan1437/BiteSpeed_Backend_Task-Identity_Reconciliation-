@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "\"# BiteSpeed_Backend_Task-Identity_Reconciliation-\"",
   "main": "index.js",
-  "scripts": {
-    "dev": "ts-node-dev src/index.ts"
-  },
+ "scripts": {
+  "dev": "ts-node-dev src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/royrohan1437/BiteSpeed_Backend_Task-Identity_Reconciliation-.git"
