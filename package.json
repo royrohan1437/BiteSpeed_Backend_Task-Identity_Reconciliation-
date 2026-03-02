@@ -4,8 +4,8 @@
   "description": "\"# BiteSpeed_Backend_Task-Identity_Reconciliation-\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "dev":"ts-node-dev src/index.ts"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/royrohan1437/BiteSpeed_Backend_Task-Identity_Reconciliation-.git"
