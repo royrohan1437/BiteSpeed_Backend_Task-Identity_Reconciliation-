@@ -2,3 +2,9 @@ node_modules
 dist
 .env
 prisma/dev.db
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# Logs
+*.log
